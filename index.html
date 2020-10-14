@@ -1,0 +1,64 @@
+<html>
+<head>
+<title> validacion de claves iguales </title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<script>
+function comprobarClave () {
+ clave1 = document.f1.clave1.value
+ clave2 = document.f1.clave2.value
+
+
+  if (clave1 == "kennis"&& clave2 == "kennys"){
+     alert("los datos coinciden...\n bienvenido");
+      var href = "paginas.html";
+      window.location=href; paginaweb.html
+    
+     }
+
+  else{
+      alert ("Error las claves son distintas...\n INTENTELO DE NUEVO.");  
+       var href = "index.html";
+      window.location=href; 
+     
+  }; 
+
+   
+ 
+ }
+ </script>
+ </head>
+
+ <body>
+<center>
+ <h1> validar si la contraseña y la repeticion de la contraseña son iguales </h1>
+</center>
+ <br>
+ <h1> escribir una contraseña y pulsa para comprobar </h1>
+ </head>
+<body background="descargaa.jpg">
+
+ <br>
+ <form action="" name="f1">
+ <div class="input">contraseña:  <input type="password" name="clave1" size="20"></div>
+ <br>
+ <div class="input">repetir contraseña:  <input type= "password" name="clave2" size="20"></div>
+ <br>
+ <p>
+  <div class="p">
+ <input type="button" value="comprobar " onClick="comprobarClave()">
+ </p>
+</div>
+ <p>
+ contraseña 1 kennis
+</p>
+<p>
+ contraseña 2 kennys
+</p>
+
+
+ </form>
+
+ </dody>
+ </html>
+
+
